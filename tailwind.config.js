@@ -11,6 +11,10 @@ module.exports = {
         primary:"#013C38",
         secondary:'#94a3b8',
         tertiary:'#15803d',
+      },
+      backgroundImage:{
+        'hero-pattern': "url('/mth.jpg')",
+        'hero-section': "url('/healtcare.jpg')"
       }
     },
   },

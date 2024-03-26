@@ -1,15 +1,16 @@
 import React from "react";
-import Home from "../components/Home";
-import Navbar from "../components/Navbar";
+import {Home, Navbar, Services, Works} from "../components";
 
 
 const Index = () => {
 	
 	return(
 		<>
-		<div className="bg-gray-300">
+		<div className="bg-white">
 		<Navbar/>
 		<Home/>
+		<Works/>
+		<Services/>
 		</div>
 		
 		</>

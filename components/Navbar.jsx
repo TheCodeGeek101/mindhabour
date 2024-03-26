@@ -5,29 +5,8 @@ import Image from 'next/image';
 import { IoMenuSharp } from "react-icons/io5";
 import { MdClose } from "react-icons/md";
 import { useAutoAnimate } from '@formkit/auto-animate/react';
+import {navLinks} from "../utils/Constants";
 
-const navLinks = [
-    {
-        label:'Home',
-        href:'#'
-    },
-    {
-        label:'About',
-        href:'#'
-    },
-    {
-        label:'Services',
-        href:'#'
-    },
-    {
-        label:'FAQ',
-        href:'#'
-    },
-    {
-        label:'Donations',
-        href:'#'
-    }
-];
 
 const Navbar = () => {
     const [animationParent] = useAutoAnimate()
